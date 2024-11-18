@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d44447f7a67b36bc9a649a8d4e11776b {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d44447f7a67b36bc9a649a8d4e11776b" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d44447f7a67b36bc9a649a8d4e11776b = L.map(
+                "map_d44447f7a67b36bc9a649a8d4e11776b",
+                {
+                    center: [44.4268, 26.1025],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 11,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5db93babceea2bd0516bb1123abe1c74 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var marker_0b3e2340fe99a9fde7c867023a0f9bf8 = L.marker(
+                [44.4438, 26.0655],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_eff6ee087752dd585619df5ea8c3f64e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b3e2340fe99a9fde7c867023a0f9bf8.setIcon(icon_eff6ee087752dd585619df5ea8c3f64e);
+        
+    
+        var popup_a4a1feb4e2b32c86d75cb180117cd246 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2aedb6c4495ac34594fc1b83d8230aea = $(`<div id="html_2aedb6c4495ac34594fc1b83d8230aea" style="width: 100.0%; height: 100.0%;">Carrefour Orhideea</div>`)[0];
+            popup_a4a1feb4e2b32c86d75cb180117cd246.setContent(html_2aedb6c4495ac34594fc1b83d8230aea);
+        
+
+        marker_0b3e2340fe99a9fde7c867023a0f9bf8.bindPopup(popup_a4a1feb4e2b32c86d75cb180117cd246)
+        ;
+
+        
+    
+    
+            var marker_0f95a2a2fc0965713a9cba7f11a11d34 = L.marker(
+                [44.4939, 26.0805],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_e268a0bd84d857b5bfeb88072ac7a728 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f95a2a2fc0965713a9cba7f11a11d34.setIcon(icon_e268a0bd84d857b5bfeb88072ac7a728);
+        
+    
+        var popup_4e02ea5ccb767cd9713c37ac0de9ab39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eaf6395559f1d50475f6ce6f999eb8ec = $(`<div id="html_eaf6395559f1d50475f6ce6f999eb8ec" style="width: 100.0%; height: 100.0%;">Carrefour Baneasa</div>`)[0];
+            popup_4e02ea5ccb767cd9713c37ac0de9ab39.setContent(html_eaf6395559f1d50475f6ce6f999eb8ec);
+        
+
+        marker_0f95a2a2fc0965713a9cba7f11a11d34.bindPopup(popup_4e02ea5ccb767cd9713c37ac0de9ab39)
+        ;
+
+        
+    
+    
+            var marker_6efdaf0727869b1157fb7b5f921940ee = L.marker(
+                [44.3615, 26.1258],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_5ee7d4bcb426b8d4e4961d893a5ce715 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6efdaf0727869b1157fb7b5f921940ee.setIcon(icon_5ee7d4bcb426b8d4e4961d893a5ce715);
+        
+    
+        var popup_1039e8fa7c73092010890d8336baa4ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21d7ff4e68974ba6da5450596bfdb300 = $(`<div id="html_21d7ff4e68974ba6da5450596bfdb300" style="width: 100.0%; height: 100.0%;">Carrefour Berceni</div>`)[0];
+            popup_1039e8fa7c73092010890d8336baa4ac.setContent(html_21d7ff4e68974ba6da5450596bfdb300);
+        
+
+        marker_6efdaf0727869b1157fb7b5f921940ee.bindPopup(popup_1039e8fa7c73092010890d8336baa4ac)
+        ;
+
+        
+    
+    
+            var marker_34a1d060d0cb1c74309f4f6695c4cc8b = L.marker(
+                [44.4932, 26.0115],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_4dc0ab11c98fd5a5f6728e7ef9a9cc92 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_34a1d060d0cb1c74309f4f6695c4cc8b.setIcon(icon_4dc0ab11c98fd5a5f6728e7ef9a9cc92);
+        
+    
+        var popup_7fd6c973433bd9bdd0ada90fcea87126 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5dad1490f7043aa0c910a22da7aedfa = $(`<div id="html_e5dad1490f7043aa0c910a22da7aedfa" style="width: 100.0%; height: 100.0%;">Carrefour Colosseum (Chitila)</div>`)[0];
+            popup_7fd6c973433bd9bdd0ada90fcea87126.setContent(html_e5dad1490f7043aa0c910a22da7aedfa);
+        
+
+        marker_34a1d060d0cb1c74309f4f6695c4cc8b.bindPopup(popup_7fd6c973433bd9bdd0ada90fcea87126)
+        ;
+
+        
+    
+    
+            var marker_a5f990dda6e873e0c6e3c4beb581b231 = L.marker(
+                [44.4233, 26.1412],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_0e07531674e13fcfa6d85a4f464581c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a5f990dda6e873e0c6e3c4beb581b231.setIcon(icon_0e07531674e13fcfa6d85a4f464581c1);
+        
+    
+        var popup_a8a00bec37b1c2b652340331f3f590b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ba3e9fa202838a596bf4cb35c4653d9b = $(`<div id="html_ba3e9fa202838a596bf4cb35c4653d9b" style="width: 100.0%; height: 100.0%;">Carrefour PARK LAKE</div>`)[0];
+            popup_a8a00bec37b1c2b652340331f3f590b0.setContent(html_ba3e9fa202838a596bf4cb35c4653d9b);
+        
+
+        marker_a5f990dda6e873e0c6e3c4beb581b231.bindPopup(popup_a8a00bec37b1c2b652340331f3f590b0)
+        ;
+
+        
+    
+    
+            var marker_a1cfcbc83b6cd5fca9c16cdc38b684d7 = L.marker(
+                [44.4275, 26.1039],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_139e615cabd817e3d9d9d76c38bb96a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a1cfcbc83b6cd5fca9c16cdc38b684d7.setIcon(icon_139e615cabd817e3d9d9d76c38bb96a2);
+        
+    
+        var popup_9adfa6d851a519d64b4b76793269cfa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eccde83faa9c642334002410a0a44116 = $(`<div id="html_eccde83faa9c642334002410a0a44116" style="width: 100.0%; height: 100.0%;">Carrefour Unirii</div>`)[0];
+            popup_9adfa6d851a519d64b4b76793269cfa3.setContent(html_eccde83faa9c642334002410a0a44116);
+        
+
+        marker_a1cfcbc83b6cd5fca9c16cdc38b684d7.bindPopup(popup_9adfa6d851a519d64b4b76793269cfa3)
+        ;
+
+        
+    
+    
+            var marker_44f727b2b7596c741121c5be32a3f9b7 = L.marker(
+                [44.4392, 25.9796],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_76bf6965e172f7a057a411c00d3868f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_44f727b2b7596c741121c5be32a3f9b7.setIcon(icon_76bf6965e172f7a057a411c00d3868f1);
+        
+    
+        var popup_de1b4fe12c5605fe39aeed0390fc986e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe251e19973f7e8b1669fee3456fd930 = $(`<div id="html_fe251e19973f7e8b1669fee3456fd930" style="width: 100.0%; height: 100.0%;">Carrefour Chiajna</div>`)[0];
+            popup_de1b4fe12c5605fe39aeed0390fc986e.setContent(html_fe251e19973f7e8b1669fee3456fd930);
+        
+
+        marker_44f727b2b7596c741121c5be32a3f9b7.bindPopup(popup_de1b4fe12c5605fe39aeed0390fc986e)
+        ;
+
+        
+    
+    
+            var marker_b3d63cc89e0589d4d2a05aa143175c08 = L.marker(
+                [44.4404, 26.1542],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_d2874ebbee3d3bd94af0fcf76c81b9f0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b3d63cc89e0589d4d2a05aa143175c08.setIcon(icon_d2874ebbee3d3bd94af0fcf76c81b9f0);
+        
+    
+        var popup_06755238797f08d5a6acf2eec0f0084f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_adf31360f573a7bb439061f3613cf883 = $(`<div id="html_adf31360f573a7bb439061f3613cf883" style="width: 100.0%; height: 100.0%;">Carrefour Mega Mall</div>`)[0];
+            popup_06755238797f08d5a6acf2eec0f0084f.setContent(html_adf31360f573a7bb439061f3613cf883);
+        
+
+        marker_b3d63cc89e0589d4d2a05aa143175c08.bindPopup(popup_06755238797f08d5a6acf2eec0f0084f)
+        ;
+
+        
+    
+    
+            var marker_efeca13f7180ed795bc32362f7de2036 = L.marker(
+                [44.4605, 26.1321],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_ca351f5964f3a027b6911dd8b2df3252 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_efeca13f7180ed795bc32362f7de2036.setIcon(icon_ca351f5964f3a027b6911dd8b2df3252);
+        
+    
+        var popup_34f915c4f746577f85535b082def4d2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae9ff493add105597f80e2a8884dcdd1 = $(`<div id="html_ae9ff493add105597f80e2a8884dcdd1" style="width: 100.0%; height: 100.0%;">Carrefour Colentina</div>`)[0];
+            popup_34f915c4f746577f85535b082def4d2f.setContent(html_ae9ff493add105597f80e2a8884dcdd1);
+        
+
+        marker_efeca13f7180ed795bc32362f7de2036.bindPopup(popup_34f915c4f746577f85535b082def4d2f)
+        ;
+
+        
+    
+    
+            var marker_b1ba640c377813dfce0c0f2f1935f6d4 = L.marker(
+                [44.4545, 26.1248],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_736d9a4495a431168a26b430fe550b73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1ba640c377813dfce0c0f2f1935f6d4.setIcon(icon_736d9a4495a431168a26b430fe550b73);
+        
+    
+        var popup_3727816826e550605f259be7acca599c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c93a3e226baeb87a3d5861bdb1ddcfae = $(`<div id="html_c93a3e226baeb87a3d5861bdb1ddcfae" style="width: 100.0%; height: 100.0%;">Carrefour Obor</div>`)[0];
+            popup_3727816826e550605f259be7acca599c.setContent(html_c93a3e226baeb87a3d5861bdb1ddcfae);
+        
+
+        marker_b1ba640c377813dfce0c0f2f1935f6d4.bindPopup(popup_3727816826e550605f259be7acca599c)
+        ;
+
+        
+    
+    
+            var marker_1a2a16335374ac3d1a142069456dfdd3 = L.marker(
+                [44.4095, 26.0737],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_474bfcbe6c13b2a168782c11f8dd7810 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1a2a16335374ac3d1a142069456dfdd3.setIcon(icon_474bfcbe6c13b2a168782c11f8dd7810);
+        
+    
+        var popup_f9dd21a2fcd6278e581b91b19e75b335 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12a4958a38acb5df42c256cb91943835 = $(`<div id="html_12a4958a38acb5df42c256cb91943835" style="width: 100.0%; height: 100.0%;">Carrefour Vulcan</div>`)[0];
+            popup_f9dd21a2fcd6278e581b91b19e75b335.setContent(html_12a4958a38acb5df42c256cb91943835);
+        
+
+        marker_1a2a16335374ac3d1a142069456dfdd3.bindPopup(popup_f9dd21a2fcd6278e581b91b19e75b335)
+        ;
+
+        
+    
+    
+            var marker_d476ce84c76d78a6c7a06d74e417328c = L.marker(
+                [44.5602, 26.0467],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_4feabe09cadd08903b77ee7b071de27f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d476ce84c76d78a6c7a06d74e417328c.setIcon(icon_4feabe09cadd08903b77ee7b071de27f);
+        
+    
+        var popup_9086dc7b7dfddd39d3129e93fb964d7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b14fd5bc8a3d1b3ae70d109c57872a34 = $(`<div id="html_b14fd5bc8a3d1b3ae70d109c57872a34" style="width: 100.0%; height: 100.0%;">Carrefour Prisma (DN1 Value/Corbeanca)</div>`)[0];
+            popup_9086dc7b7dfddd39d3129e93fb964d7f.setContent(html_b14fd5bc8a3d1b3ae70d109c57872a34);
+        
+
+        marker_d476ce84c76d78a6c7a06d74e417328c.bindPopup(popup_9086dc7b7dfddd39d3129e93fb964d7f)
+        ;
+
+        
+    
+    
+            var marker_734102967ce06d36cc5c1b820924f542 = L.marker(
+                [44.4211, 26.1785],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_445942751a76e43b7c9ec0d02285041b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_734102967ce06d36cc5c1b820924f542.setIcon(icon_445942751a76e43b7c9ec0d02285041b);
+        
+    
+        var popup_eed47ee5a6802376a803a5ef537b69fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60e3ef2cb5dac47ed48f54722f623833 = $(`<div id="html_60e3ef2cb5dac47ed48f54722f623833" style="width: 100.0%; height: 100.0%;">Auchan Titan</div>`)[0];
+            popup_eed47ee5a6802376a803a5ef537b69fd.setContent(html_60e3ef2cb5dac47ed48f54722f623833);
+        
+
+        marker_734102967ce06d36cc5c1b820924f542.bindPopup(popup_eed47ee5a6802376a803a5ef537b69fd)
+        ;
+
+        
+    
+    
+            var marker_e8f1e6f74093cc1ad27ebc449f3c36d0 = L.marker(
+                [44.3537, 25.9792],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_228c155e978064790045f03340be28dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_e8f1e6f74093cc1ad27ebc449f3c36d0.setIcon(icon_228c155e978064790045f03340be28dc);
+        
+    
+        var popup_a1a3d11841b7d55dcf26095505c634df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f392889f491d95d159dda4f141c8118e = $(`<div id="html_f392889f491d95d159dda4f141c8118e" style="width: 100.0%; height: 100.0%;">Auchan PGC DRY Bolintin Berceni</div>`)[0];
+            popup_a1a3d11841b7d55dcf26095505c634df.setContent(html_f392889f491d95d159dda4f141c8118e);
+        
+
+        marker_e8f1e6f74093cc1ad27ebc449f3c36d0.bindPopup(popup_a1a3d11841b7d55dcf26095505c634df)
+        ;
+
+        
+    
+    
+            var marker_1e72c4aecf8dd56f67afc5cde49fa0ea = L.marker(
+                [44.4532, 26.0575],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_0e5d0c22a933702fd0238d12667b1dee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1e72c4aecf8dd56f67afc5cde49fa0ea.setIcon(icon_0e5d0c22a933702fd0238d12667b1dee);
+        
+    
+        var popup_3fd5c85b39fd882cecc7042d9e50f510 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03e7c835214781e5c80e59aa715cd651 = $(`<div id="html_03e7c835214781e5c80e59aa715cd651" style="width: 100.0%; height: 100.0%;">Auchan CRANGASI</div>`)[0];
+            popup_3fd5c85b39fd882cecc7042d9e50f510.setContent(html_03e7c835214781e5c80e59aa715cd651);
+        
+
+        marker_1e72c4aecf8dd56f67afc5cde49fa0ea.bindPopup(popup_3fd5c85b39fd882cecc7042d9e50f510)
+        ;
+
+        
+    
+    
+            var marker_8400d2191b84471faae88f496a39cbca = L.marker(
+                [44.4139, 26.0468],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_053ffba396e48710021f933ec53adb52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8400d2191b84471faae88f496a39cbca.setIcon(icon_053ffba396e48710021f933ec53adb52);
+        
+    
+        var popup_21d1572ccc6317c598f24d191c253d0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dab1367f4a210bf4de2303f104eba211 = $(`<div id="html_dab1367f4a210bf4de2303f104eba211" style="width: 100.0%; height: 100.0%;">Auchan Dr Taberei</div>`)[0];
+            popup_21d1572ccc6317c598f24d191c253d0a.setContent(html_dab1367f4a210bf4de2303f104eba211);
+        
+
+        marker_8400d2191b84471faae88f496a39cbca.bindPopup(popup_21d1572ccc6317c598f24d191c253d0a)
+        ;
+
+        
+    
+    
+            var marker_a10d842a00786e743533f161a7499cfe = L.marker(
+                [44.4275, 26.1307],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_6551adff5fe8c10827f62520e6b0b6f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a10d842a00786e743533f161a7499cfe.setIcon(icon_6551adff5fe8c10827f62520e6b0b6f9);
+        
+    
+        var popup_07b30e176a037277c6c6f0472957559c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b34102a952e31ec676827dd321b9fc3e = $(`<div id="html_b34102a952e31ec676827dd321b9fc3e" style="width: 100.0%; height: 100.0%;">Kaufland Mihai Bravu</div>`)[0];
+            popup_07b30e176a037277c6c6f0472957559c.setContent(html_b34102a952e31ec676827dd321b9fc3e);
+        
+
+        marker_a10d842a00786e743533f161a7499cfe.bindPopup(popup_07b30e176a037277c6c6f0472957559c)
+        ;
+
+        
+    
+    
+            var marker_5e99cf5b77cc96bd4bf00c71234c3000 = L.marker(
+                [44.4856, 26.0494],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_d5e9f1c76eaa4d19b3db5bcbc905eec8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e99cf5b77cc96bd4bf00c71234c3000.setIcon(icon_d5e9f1c76eaa4d19b3db5bcbc905eec8);
+        
+    
+        var popup_6a481da5e65402a0fc61f0fa3168b84b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0ba9fa882e305b1acf3479e79170bf1d = $(`<div id="html_0ba9fa882e305b1acf3479e79170bf1d" style="width: 100.0%; height: 100.0%;">Kaufland Bucurestii Noi</div>`)[0];
+            popup_6a481da5e65402a0fc61f0fa3168b84b.setContent(html_0ba9fa882e305b1acf3479e79170bf1d);
+        
+
+        marker_5e99cf5b77cc96bd4bf00c71234c3000.bindPopup(popup_6a481da5e65402a0fc61f0fa3168b84b)
+        ;
+
+        
+    
+    
+            var marker_571e8f267b4ff8d0f6ba32c9256d6586 = L.marker(
+                [44.3762, 26.1327],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_b0d27ee4f40097494a2f59bfc3b165e7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_571e8f267b4ff8d0f6ba32c9256d6586.setIcon(icon_b0d27ee4f40097494a2f59bfc3b165e7);
+        
+    
+        var popup_61614c88c343a3cbd49f47933112342e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_140461febd1ad0b158132a1acbc5ee51 = $(`<div id="html_140461febd1ad0b158132a1acbc5ee51" style="width: 100.0%; height: 100.0%;">Kaufland Aparatorii Patriei</div>`)[0];
+            popup_61614c88c343a3cbd49f47933112342e.setContent(html_140461febd1ad0b158132a1acbc5ee51);
+        
+
+        marker_571e8f267b4ff8d0f6ba32c9256d6586.bindPopup(popup_61614c88c343a3cbd49f47933112342e)
+        ;
+
+        
+    
+    
+            var marker_322e82c61712bc3efcd08ab912e6763e = L.marker(
+                [44.4694, 26.1235],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_98b80a1e31b4c23d252e9a0e3c0beb72 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_322e82c61712bc3efcd08ab912e6763e.setIcon(icon_98b80a1e31b4c23d252e9a0e3c0beb72);
+        
+    
+        var popup_210a0c06716710e60fab9c8ebc673e81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_229aa1aca9f6172a4935ae3d35a2d3ed = $(`<div id="html_229aa1aca9f6172a4935ae3d35a2d3ed" style="width: 100.0%; height: 100.0%;">Kaufland Colentina</div>`)[0];
+            popup_210a0c06716710e60fab9c8ebc673e81.setContent(html_229aa1aca9f6172a4935ae3d35a2d3ed);
+        
+
+        marker_322e82c61712bc3efcd08ab912e6763e.bindPopup(popup_210a0c06716710e60fab9c8ebc673e81)
+        ;
+
+        
+    
+    
+            var marker_52eda52ec98a187c4637ee996446d19d = L.marker(
+                [44.4485, 26.0706],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_ea86b6a9e0c1cd8d93bb99c06d03ce25 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_52eda52ec98a187c4637ee996446d19d.setIcon(icon_ea86b6a9e0c1cd8d93bb99c06d03ce25);
+        
+    
+        var popup_e3475c5a8c5d5c3755619d114aef9d0b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33aed535d828190d18b61865211169b1 = $(`<div id="html_33aed535d828190d18b61865211169b1" style="width: 100.0%; height: 100.0%;">Kaufland Basarab</div>`)[0];
+            popup_e3475c5a8c5d5c3755619d114aef9d0b.setContent(html_33aed535d828190d18b61865211169b1);
+        
+
+        marker_52eda52ec98a187c4637ee996446d19d.bindPopup(popup_e3475c5a8c5d5c3755619d114aef9d0b)
+        ;
+
+        
+    
+    
+            var marker_a32860ad2c719f6ba92c22ea76044221 = L.marker(
+                [44.4167, 26.0722],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_fea67809bd3733caed05d5d22233987e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a32860ad2c719f6ba92c22ea76044221.setIcon(icon_fea67809bd3733caed05d5d22233987e);
+        
+    
+        var popup_ac5e02389562cd633464d95c64cc6d37 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7617262ff36bed0f498f45602eee8819 = $(`<div id="html_7617262ff36bed0f498f45602eee8819" style="width: 100.0%; height: 100.0%;">Kaufland Sebastian</div>`)[0];
+            popup_ac5e02389562cd633464d95c64cc6d37.setContent(html_7617262ff36bed0f498f45602eee8819);
+        
+
+        marker_a32860ad2c719f6ba92c22ea76044221.bindPopup(popup_ac5e02389562cd633464d95c64cc6d37)
+        ;
+
+        
+    
+    
+            var marker_676d03c42487d85fdc2bcceb0a65f5a2 = L.marker(
+                [44.4163, 26.0572],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_a9dd02f3aff9d43826eaaeb556976b1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_676d03c42487d85fdc2bcceb0a65f5a2.setIcon(icon_a9dd02f3aff9d43826eaaeb556976b1e);
+        
+    
+        var popup_1a3437a34b989b18f51c8c37ff33abe9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18fa92a8b722bc260ceebae232facb3a = $(`<div id="html_18fa92a8b722bc260ceebae232facb3a" style="width: 100.0%; height: 100.0%;">Kaufland Tudor Vladimirescu</div>`)[0];
+            popup_1a3437a34b989b18f51c8c37ff33abe9.setContent(html_18fa92a8b722bc260ceebae232facb3a);
+        
+
+        marker_676d03c42487d85fdc2bcceb0a65f5a2.bindPopup(popup_1a3437a34b989b18f51c8c37ff33abe9)
+        ;
+
+        
+    
+    
+            var marker_d48b0ac1056eaf0bfbb601bafecc04cb = L.marker(
+                [44.4307, 26.1621],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_6512681f0a8af71bf59b88079fb543fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_d48b0ac1056eaf0bfbb601bafecc04cb.setIcon(icon_6512681f0a8af71bf59b88079fb543fc);
+        
+    
+        var popup_1f68b90f49071674ddf7f56786b1fb03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c2a40cdffadc8bad7528afa49a293dd = $(`<div id="html_9c2a40cdffadc8bad7528afa49a293dd" style="width: 100.0%; height: 100.0%;">Kaufland Electroparataj</div>`)[0];
+            popup_1f68b90f49071674ddf7f56786b1fb03.setContent(html_9c2a40cdffadc8bad7528afa49a293dd);
+        
+
+        marker_d48b0ac1056eaf0bfbb601bafecc04cb.bindPopup(popup_1f68b90f49071674ddf7f56786b1fb03)
+        ;
+
+        
+    
+    
+            var marker_c3d1ebb86c54bfe07ee8846dec7c41a9 = L.marker(
+                [44.4322, 26.0428],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_cf8849c5d19f04c6f6b8c749b654bca5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_c3d1ebb86c54bfe07ee8846dec7c41a9.setIcon(icon_cf8849c5d19f04c6f6b8c749b654bca5);
+        
+    
+        var popup_6bace1402a3d912de3209684978171ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_181979dd8b07e40d97c700bf62fefbdb = $(`<div id="html_181979dd8b07e40d97c700bf62fefbdb" style="width: 100.0%; height: 100.0%;">Cora Lujerului</div>`)[0];
+            popup_6bace1402a3d912de3209684978171ff.setContent(html_181979dd8b07e40d97c700bf62fefbdb);
+        
+
+        marker_c3d1ebb86c54bfe07ee8846dec7c41a9.bindPopup(popup_6bace1402a3d912de3209684978171ff)
+        ;
+
+        
+    
+    
+            var marker_1ee47db36050cc8ba938e62647a909ac = L.marker(
+                [44.3941, 26.0325],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_f8b6033cbd22a7941c8f97e6b5b7b11e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1ee47db36050cc8ba938e62647a909ac.setIcon(icon_f8b6033cbd22a7941c8f97e6b5b7b11e);
+        
+    
+        var popup_d977b6ae5468735f55b4e7e452d5e08d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d33c1aedd187708dd7d2d1a29fee2242 = $(`<div id="html_d33c1aedd187708dd7d2d1a29fee2242" style="width: 100.0%; height: 100.0%;">Cora Alexandriei</div>`)[0];
+            popup_d977b6ae5468735f55b4e7e452d5e08d.setContent(html_d33c1aedd187708dd7d2d1a29fee2242);
+        
+
+        marker_1ee47db36050cc8ba938e62647a909ac.bindPopup(popup_d977b6ae5468735f55b4e7e452d5e08d)
+        ;
+
+        
+    
+    
+            var marker_d4cdd6c46bae555d4751cd78cae32046 = L.marker(
+                [44.3629, 26.125],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_20cf104e02c1bcdb00f58ea9bb1a8741 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_d4cdd6c46bae555d4751cd78cae32046.setIcon(icon_20cf104e02c1bcdb00f58ea9bb1a8741);
+        
+    
+        var popup_8cc4a35edf9e545c6c21d67f75208432 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19d5f551fc48a120a851e4c8ddb27a1e = $(`<div id="html_19d5f551fc48a120a851e4c8ddb27a1e" style="width: 100.0%; height: 100.0%;">Cora Berceni</div>`)[0];
+            popup_8cc4a35edf9e545c6c21d67f75208432.setContent(html_19d5f551fc48a120a851e4c8ddb27a1e);
+        
+
+        marker_d4cdd6c46bae555d4751cd78cae32046.bindPopup(popup_8cc4a35edf9e545c6c21d67f75208432)
+        ;
+
+        
+    
+    
+            var marker_db7387ecaefda57d0f7e61e09b078e0e = L.marker(
+                [44.4293, 26.185],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_14d712c8dbed3009a5920908f4d6985a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_db7387ecaefda57d0f7e61e09b078e0e.setIcon(icon_14d712c8dbed3009a5920908f4d6985a);
+        
+    
+        var popup_5092d4828d0a7cc726b93e6957850a4b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60840c5b0fa9cab1b75e19c487435f1f = $(`<div id="html_60840c5b0fa9cab1b75e19c487435f1f" style="width: 100.0%; height: 100.0%;">Cora Pantelimon</div>`)[0];
+            popup_5092d4828d0a7cc726b93e6957850a4b.setContent(html_60840c5b0fa9cab1b75e19c487435f1f);
+        
+
+        marker_db7387ecaefda57d0f7e61e09b078e0e.bindPopup(popup_5092d4828d0a7cc726b93e6957850a4b)
+        ;
+
+        
+    
+    
+            var marker_849cf17eeca8cb09ef8c07dfe5edd317 = L.marker(
+                [44.4495, 25.9567],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_fdd31f198b1c13926b8ae024c105b4bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_849cf17eeca8cb09ef8c07dfe5edd317.setIcon(icon_fdd31f198b1c13926b8ae024c105b4bd);
+        
+    
+        var popup_89a618fa582dd13242f3cf35ce4e67f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d37f898fbc7fa5ac5debb81d9d19d4 = $(`<div id="html_46d37f898fbc7fa5ac5debb81d9d19d4" style="width: 100.0%; height: 100.0%;">Metro Militari</div>`)[0];
+            popup_89a618fa582dd13242f3cf35ce4e67f7.setContent(html_46d37f898fbc7fa5ac5debb81d9d19d4);
+        
+
+        marker_849cf17eeca8cb09ef8c07dfe5edd317.bindPopup(popup_89a618fa582dd13242f3cf35ce4e67f7)
+        ;
+
+        
+    
+    
+            var marker_69ee40b4238128d21222bb29c9e924e7 = L.marker(
+                [44.5035, 26.0869],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_5de064c3a25de9e8dc1a5222b7e22c34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_69ee40b4238128d21222bb29c9e924e7.setIcon(icon_5de064c3a25de9e8dc1a5222b7e22c34);
+        
+    
+        var popup_386f29f9d48fc30847ad5e3a0ae75d22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a14e1b0f3f22f8dc293847293b0891f2 = $(`<div id="html_a14e1b0f3f22f8dc293847293b0891f2" style="width: 100.0%; height: 100.0%;">Metro Baneasa</div>`)[0];
+            popup_386f29f9d48fc30847ad5e3a0ae75d22.setContent(html_a14e1b0f3f22f8dc293847293b0891f2);
+        
+
+        marker_69ee40b4238128d21222bb29c9e924e7.bindPopup(popup_386f29f9d48fc30847ad5e3a0ae75d22)
+        ;
+
+        
+    
+    
+            var marker_09cdae20e938a2bde1c9ef853c0c02d7 = L.marker(
+                [44.3528, 26.1276],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_b6da7941e0f22bd326b6342c4fbe029b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_09cdae20e938a2bde1c9ef853c0c02d7.setIcon(icon_b6da7941e0f22bd326b6342c4fbe029b);
+        
+    
+        var popup_bf5b11a617fe2927c5e60ab6369de7ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f0f8c5a6aeaa6a997554052e1f08948 = $(`<div id="html_8f0f8c5a6aeaa6a997554052e1f08948" style="width: 100.0%; height: 100.0%;">Metro Berceni</div>`)[0];
+            popup_bf5b11a617fe2927c5e60ab6369de7ea.setContent(html_8f0f8c5a6aeaa6a997554052e1f08948);
+        
+
+        marker_09cdae20e938a2bde1c9ef853c0c02d7.bindPopup(popup_bf5b11a617fe2927c5e60ab6369de7ea)
+        ;
+
+        
+    
+    
+            var marker_bfd88d3f97028a51320f412b9eb8ce58 = L.marker(
+                [44.3962, 26.1425],
+                {}
+            ).addTo(map_d44447f7a67b36bc9a649a8d4e11776b);
+        
+    
+            var icon_ecca3c35a0fddce42a55b1c3da59e60d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "brown", "prefix": "glyphicon"}
+            );
+            marker_bfd88d3f97028a51320f412b9eb8ce58.setIcon(icon_ecca3c35a0fddce42a55b1c3da59e60d);
+        
+    
+        var popup_2e36a1394ccfd915f012fb6413f57bf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37cfbb368068b85222605aa80469c048 = $(`<div id="html_37cfbb368068b85222605aa80469c048" style="width: 100.0%; height: 100.0%;">Cocos Vitantis</div>`)[0];
+            popup_2e36a1394ccfd915f012fb6413f57bf5.setContent(html_37cfbb368068b85222605aa80469c048);
+        
+
+        marker_bfd88d3f97028a51320f412b9eb8ce58.bindPopup(popup_2e36a1394ccfd915f012fb6413f57bf5)
+        ;
+
+        
+    
+</script>
+</html>
